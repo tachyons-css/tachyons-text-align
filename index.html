@@ -13,6 +13,50 @@
   <body>
     <h1>tachyons text align</h1>
     <h2>Examples</h2>
+
+.tl  { text-align: left; }
+.tr  { text-align: right; }
+.tc  { text-align: center; }
+  .tl-ns  { text-align: left; }
+  .tr-ns  { text-align: right; }
+  .tc-ns  { text-align: center; }
+  .tl-m  { text-align: left; }
+  .tr-m  { text-align: right; }
+  .tc-m  { text-align: center; }
+  .tl-l  { text-align: left; }
+  .tr-l  { text-align: right; }
+  .tc-l  { text-align: center; }
+    <pre>
+<code>
+/*
+
+  Text Align
+
+*/
+
+.tl  { text-align: left; }
+.tr  { text-align: right; }
+.tc  { text-align: center; }
+
+@include break(not-small) {
+  .tl-ns  { text-align: left; }
+  .tr-ns  { text-align: right; }
+  .tc-ns  { text-align: center; }
+}
+
+@include break(medium) {
+  .tl-m  { text-align: left; }
+  .tr-m  { text-align: right; }
+  .tc-m  { text-align: center; }
+}
+
+@include break(large) {
+  .tl-l  { text-align: left; }
+  .tr-l  { text-align: right; }
+  .tc-l  { text-align: center; }
+}
+</code>
+</pre>
     <a href="http://npmjs.org/package/tachyons-text-align" title="tachyons-text-align">View package on npm</a>
   </body>
 </html>

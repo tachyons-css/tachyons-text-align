@@ -1,12 +1,12 @@
 {
   "name": "tachyons-text-align",
   "version": "0.3.0",
-  "style": "text_align.css",
+  "style": "tachyons-text-align.css",
   "homepage": "http://mrmrs.io/tachyons-text-align",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",

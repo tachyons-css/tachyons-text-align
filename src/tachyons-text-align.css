@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
 
@@ -10,19 +12,19 @@
 .tr  { text-align: right; }
 .tc  { text-align: center; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .tl-ns  { text-align: left; }
   .tr-ns  { text-align: right; }
   .tc-ns  { text-align: center; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .tl-m  { text-align: left; }
   .tr-m  { text-align: right; }
   .tc-m  { text-align: center; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .tl-l  { text-align: left; }
   .tr-l  { text-align: right; }
   .tc-l  { text-align: center; }

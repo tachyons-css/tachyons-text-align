@@ -2,7 +2,7 @@
   "name": "tachyons-text-align",
   "version": "1.0.0",
   "style": "tachyons-text-align.css",
-  "homepage": "http://mrmrs.io/tachyons-text-align",
+  "homepage": "http://github.com/mrmrs/tachyons-text-align",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",

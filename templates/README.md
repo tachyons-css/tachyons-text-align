@@ -1,45 +1,22 @@
-# TACHYONS-TEXT-ALIGN
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-text-align
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-  Text Align
-
-*/
-
-.tl  { text-align: left; }
-.tr  { text-align: right; }
-.tc  { text-align: center; }
-
-@include break(not-small) {
-  .tl-ns  { text-align: left; }
-  .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
-}
-
-@include break(medium) {
-  .tl-m  { text-align: left; }
-  .tr-m  { text-align: right; }
-  .tc-m  { text-align: center; }
-}
-
-@include break(large) {
-  .tl-l  { text-align: left; }
-  .tr-l  { text-align: right; }
-  .tc-l  { text-align: center; }
-}
+<%= srcCSS %>
 ```
 
 ## Author

@@ -20,7 +20,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "perfectionist": "^1.3.1",
   },
   "scripts": {
     "start": "node build.js",

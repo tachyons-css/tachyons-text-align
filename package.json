@@ -1,18 +1,17 @@
 {
   "name": "tachyons-text-align",
-  "version": "2.0.2",
-  "style": "tachyons-text-align.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-text-align",
+  "version": "2.0.3",
+  "style": "src/tachyons-text-align.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-text-align.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-text-align/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-text-align",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",

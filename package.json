@@ -1,6 +1,6 @@
 {
   "name": "tachyons-text-align",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "style": "src/tachyons-text-align.css",
   "description": "Performance based css module.",
   "keywords": [
@@ -29,5 +29,9 @@
     "build:docs": "tachyons src/tachyons-text-align.css --generate-docs --package=../../package.json > readme.md",
     "build": "npm run build:css && npm run build:minify && npm run build:docs",
     "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "typography",
+    "isCore": true
   }
 }

@@ -1,4 +1,4 @@
-# tachyons-text-align 2.0.3
+# tachyons-text-align 2.0.5
 
 Performance based css module.
 

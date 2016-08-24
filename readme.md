@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-178 | 12 | 12
+177 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -82,17 +82,17 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .tl { text-align: left; }
 .tr { text-align: right; }
 .tc { text-align: center; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .tl-ns { text-align: left; }
  .tr-ns { text-align: right; }
  .tc-ns { text-align: center; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .tl-m { text-align: left; }
  .tr-m { text-align: right; }
  .tc-m { text-align: center; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .tl-l { text-align: left; }
  .tr-l { text-align: right; }
  .tc-l { text-align: center; }

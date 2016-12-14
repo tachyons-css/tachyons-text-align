@@ -2,6 +2,7 @@
   "name": "tachyons-text-align",
   "version": "3.0.3",
   "style": "src/tachyons-text-align.css",
+  "main": "src/tachyons-text-align.css",
   "description": "Performance based css module.",
   "keywords": [
     "tachyons",
